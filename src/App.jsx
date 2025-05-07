@@ -4,7 +4,10 @@ import './App.css'
 import Welcome from './pages/Welcome'
 import Home from './pages/Home';
 import Quran from './pages/Quran';
-import DetailSurah from './pages/Detailsurah';
+import DetailSurah from './pages/DetailSurah';
+
+
+
 function App() {
 
   return (
