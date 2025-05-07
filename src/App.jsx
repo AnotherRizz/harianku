@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/" element={<Welcome />} />
+      <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/quran" element={<Quran />} />
       <Route path="/quran/:nomor" element={<DetailSurah/>} />
