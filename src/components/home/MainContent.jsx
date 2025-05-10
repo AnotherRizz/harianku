@@ -18,11 +18,12 @@ const MainContent = () => {
           <h1 className="text-center text-sm">Doa</h1>
         </div>
         </Link>
-
+        <Link to={"/asmaulhusna"}>
         <div className="p1">
-          <img src="img/icon/jadwal.png" className="" alt="" />
-          <h1 className="text-center text-sm">Jadwal sholat</h1>
+          <img src="img/icon/asmaul-husna.png" className="" alt="" />
+          <h1 className="text-center text-sm">Asmaul Husna</h1>
         </div>
+        </Link>
         <div className="p1">
           <img src="img/icon/bookmark.png" className="" alt="" />
           <h1 className="text-center text-sm">Bookmark</h1>
