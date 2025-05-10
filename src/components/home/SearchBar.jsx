@@ -25,12 +25,13 @@ const SearchBar = () => {
   const handleSelect = (item) => {
     setSelectedKota(item);
     setQuery(item.lokasi);
-    setShowDropdown(true);
+    setShowDropdown(false);
     localStorage.setItem("kotaId", item.id);
+    localStorage.setItem("kota", item.lokasi);
   };
 
   
-  return  <div className="max-w-sm mx-auto relative mt-1">
+  return  <div className="max-w-sm mx-auto relative mt-1 z-50">
   <input
     type="text"
     value={query}

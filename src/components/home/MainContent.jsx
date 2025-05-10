@@ -12,10 +12,12 @@ const MainContent = () => {
             <h1 className="text-center text-sm">Quran</h1>
           </div>
         </Link>
+        <Link to={"/doa"}>
         <div className="p1">
           <img src="img/icon/doa.png" className="" alt="" />
           <h1 className="text-center text-sm">Doa</h1>
         </div>
+        </Link>
 
         <div className="p1">
           <img src="img/icon/jadwal.png" className="" alt="" />
